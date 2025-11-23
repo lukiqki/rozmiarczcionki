@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:layout_margin="20dp">
+
+    <TextView
+        android:id="@+id/wlasciwosciczcionkitextview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#558B2F"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="40dp"
+        android:text="Właściwości czcionki" />
+
+    <TextView
+        android:id="@+id/rozmiartextview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Rozmiar: "/>
+
+    <SeekBar
+        android:id="@+id/suwak"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:min="0"
+        android:max="40"/>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="#558B2F"
+        android:textStyle="bold"
+        android:text=">>"/>
+
+    <TextView
+        android:id="@+id/powitanietextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""/>
+
+</LinearLayout>
